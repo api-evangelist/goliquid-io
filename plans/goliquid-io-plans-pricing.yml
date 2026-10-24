@@ -1,0 +1,20 @@
+generated: '2026-10-24'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.liquidtrust.io/pricing
+sources:
+- https://www.liquidtrust.io/pricing
+- https://www.liquidtrust.io/pricing
+- https://www.liquidtrust.io/blog/what-are-intermediary-bank-fees
+name: Liquid pricing
+audience: developer-api
+pricing_basis: per-call
+plans:
+- name: Protected Pay
+  price_text: 1% all-in
+  description: Per transaction when used directly.
+- name: Simple Pay
+  price_text: $10 per transaction
+  price: 10
+  description: When used directly.
+docs: https://www.liquidtrust.io/pricing

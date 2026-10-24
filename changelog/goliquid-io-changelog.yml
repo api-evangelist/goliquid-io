@@ -1,0 +1,79 @@
+generated: '2026-10-24'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.liquidtrust.io/release-notes
+sources:
+- https://www.liquidtrust.io/release-notes
+entries:
+- breaking: false
+  highlights:
+  - Ongoing platform stability and security updates
+  - Improvements to invitation handling and team member display
+  - Continued refinement of permissions and form validation flows
+  date: '2026-03-03'
+- breaking: false
+  highlights:
+  - Dependency and security updates
+  - Improved withdrawal permissions and validation logic
+  - Enhanced pagination and transaction display consistency
+  date: '2026-01-29'
+- breaking: false
+  highlights:
+  - Improved dashboard routing after payment method setup
+  - Enhanced transaction status handling and wallet display accuracy
+  - Localization and messaging refinements
+  date: '2026-01-08'
+- breaking: false
+  highlights:
+  - Expanded translation and language support
+  - Improved partner feature configuration controls
+  - Strengthened onboarding data handling and payment approval validation
+  date: '2025-11-27'
+- breaking: false
+  highlights:
+  - Added single sign-on (SSO) support
+  - Improved role assignment and administrative controls
+  - Enhanced dispute handling and verification workflows
+  date: '2025-10-23'
+- breaking: false
+  highlights:
+  - Partner branding and navigation updates
+  - Improved verification status handling
+  - Accessibility and user experience enhancements
+  date: '2025-09-10'
+- breaking: false
+  highlights:
+  - Improved dispute and rejection workflows
+  - Enhanced business owner invitation acceptance
+  - Continued UI and messaging clarity improvements
+  date: '2025-08-19'
+- breaking: false
+  highlights:
+  - Withdrawal and payment flow refinements
+  - Stability improvements for onboarding and team member handling
+  date: '2025-08-05'
+- breaking: false
+  highlights:
+  - Trust Payment flow improvements
+  - Support for dynamic withdrawal minimums
+  - Continued reliability enhancements
+  date: '2025-07-22'
+- breaking: false
+  highlights:
+  - Partner-specific configuration enhancements
+  - Improvements to direct payment and dashboard behavior
+  - Security and dependency updates
+  date: '2025-07-08'
+- breaking: false
+  highlights:
+  - Accessibility improvements across platform pages
+  - Enhanced fee display logic and escrow minimum handling
+  - Strengthened data separation and reliability updates
+  date: '2025-06-25'
+- breaking: false
+  highlights:
+  - Updated payment fee display logic
+  - Improved payment method and transaction handling
+  date: '2025-06-10'
+note: Versioning scheme and current version are not specified on the page; entries are listed by date.
+docs: https://www.liquidtrust.io/release-notes

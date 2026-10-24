@@ -1,0 +1,80 @@
+generated: '2026-10-24'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 2
+  other_domain: 3
+  platform: 0
+  roles:
+  - api
+  - docs
+  - identity
+  - website
+hosts:
+- host: api.goliquid.io
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: goliquid.io
+  role: api
+  relation: own
+- host: api.liquidtrust.io
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: liquidtrust.io
+  role: api
+  relation: other-domain
+- host: goliquid.io
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - hosting
+  vendor: vercel
+  registrable_domain: goliquid.io
+  role: website
+  relation: own
+- host: liquidtrust.io
+  found_by:
+  - pointer
+  - docs-index
+  types:
+  - GettingStarted
+  serves:
+  - docs
+  registrable_domain: liquidtrust.io
+  role: docs
+  relation: other-domain
+- host: www.liquidtrust.io
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  types:
+  - TermsOfService
+  - Security
+  - PrivacyPolicy
+  - Pricing
+  - Newsroom
+  - Login
+  - ChangeLog
+  - Blog
+  serves:
+  - docs
+  registrable_domain: liquidtrust.io
+  role: identity
+  relation: other-domain
